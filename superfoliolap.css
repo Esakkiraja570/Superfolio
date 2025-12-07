@@ -1,0 +1,162 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.page-1{
+    background-image: url(images/wave-bg.svg);
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-2{
+     margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+  
+}
+.contents-2{
+display: inline;
+padding-bottom: 20px;
+}
+.dropdown{
+  display: none;
+
+}
+.page2{
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form{
+  margin: 40px;
+  margin-top: 0px;
+}
+.myservice{
+ margin-top: 20px;
+  text-align: center;
+}
+.images{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.myskill{
+  text-align: center;
+}
+.table1{
+    background: #fff;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.s1{
+    display: flex;
+  justify-content: center;
+}
+.skill {
+    margin-bottom: 15px;
+}
+.skill-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.skill-bar {
+    position: relative;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.skill-bar-fill {
+    height: 100%;
+    background: #f1c40f;
+    width: 0;
+    border-radius: 5px;
+    transition: width 1.5s ease-in-out;
+}
+#table2{
+background: #fff;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card-box{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+.idcard2{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.classtext{
+  text-align: center;
+}
+.idcard2{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.common{
+display: grid;
+  grid-template-columns: auto auto;
+}
+.card1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.last{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+.lastpage{
+  margin-top: 150px;
+  padding: 40px;
+  background-color:lavender;
+}
+.experience{
+  text-align: center;
+}
+.page5{
+  text-align: center;
+}
+.sitems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
